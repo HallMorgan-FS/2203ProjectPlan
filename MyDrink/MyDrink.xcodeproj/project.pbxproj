@@ -7,9 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B046CA22832EC2F0018C8AC /* SignIn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B046CA12832EC2F0018C8AC /* SignIn.swift */; };
+		3B046CA62832FDFF0018C8AC /* MyPlacesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B046CA52832FDFF0018C8AC /* MyPlacesCell.swift */; };
+		3B046CA8283301290018C8AC /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B046CA7283301290018C8AC /* Place.swift */; };
+		3B046CAA283301350018C8AC /* Drink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B046CA9283301350018C8AC /* Drink.swift */; };
+		3B046CAC283EEA130018C8AC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B046CAB283EEA130018C8AC /* SignInViewController.swift */; };
+		3B046CB0283EF94D0018C8AC /* AddPlace_VC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B046CAF283EF94D0018C8AC /* AddPlace_VC.swift */; };
+		3B046CB2284436D50018C8AC /* UserDefaults_ext.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B046CB1284436D50018C8AC /* UserDefaults_ext.swift */; };
 		3BFC17BD2824893C00235D59 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC17BC2824893C00235D59 /* AppDelegate.swift */; };
 		3BFC17BF2824893C00235D59 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC17BE2824893C00235D59 /* SceneDelegate.swift */; };
-		3BFC17C12824893C00235D59 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC17C02824893C00235D59 /* ViewController.swift */; };
 		3BFC17C42824893C00235D59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC17C22824893C00235D59 /* Main.storyboard */; };
 		3BFC17C72824893C00235D59 /* MyDrink.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3BFC17C52824893C00235D59 /* MyDrink.xcdatamodeld */; };
 		3BFC17C92824893F00235D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3BFC17C82824893F00235D59 /* Assets.xcassets */; };
@@ -22,10 +28,16 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B046CA12832EC2F0018C8AC /* SignIn.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignIn.swift; sourceTree = "<group>"; };
+		3B046CA52832FDFF0018C8AC /* MyPlacesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyPlacesCell.swift; sourceTree = "<group>"; };
+		3B046CA7283301290018C8AC /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		3B046CA9283301350018C8AC /* Drink.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Drink.swift; sourceTree = "<group>"; };
+		3B046CAB283EEA130018C8AC /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		3B046CAF283EF94D0018C8AC /* AddPlace_VC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddPlace_VC.swift; sourceTree = "<group>"; };
+		3B046CB1284436D50018C8AC /* UserDefaults_ext.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDefaults_ext.swift; sourceTree = "<group>"; };
 		3BFC17B92824893C00235D59 /* MyDrink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyDrink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3BFC17BC2824893C00235D59 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3BFC17BE2824893C00235D59 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		3BFC17C02824893C00235D59 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		3BFC17C32824893C00235D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3BFC17C62824893C00235D59 /* MyDrink.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyDrink.xcdatamodel; sourceTree = "<group>"; };
 		3BFC17C82824893F00235D59 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -71,13 +83,19 @@
 				3BFC17D528248E8A00235D59 /* GoogleService-Info.plist */,
 				3BFC17BC2824893C00235D59 /* AppDelegate.swift */,
 				3BFC17BE2824893C00235D59 /* SceneDelegate.swift */,
-				3BFC17C02824893C00235D59 /* ViewController.swift */,
+				3B046CAB283EEA130018C8AC /* SignInViewController.swift */,
+				3B046CAF283EF94D0018C8AC /* AddPlace_VC.swift */,
 				3BFC17C22824893C00235D59 /* Main.storyboard */,
 				3BFC17C82824893F00235D59 /* Assets.xcassets */,
 				3BFC17CA2824893F00235D59 /* LaunchScreen.storyboard */,
 				3BFC17CD2824893F00235D59 /* Info.plist */,
-				3BFC17C52824893C00235D59 /* MyDrink.xcdatamodeld */,
 				3BFC17DE282DF64C00235D59 /* MyPlacesVC.swift */,
+				3B046CA12832EC2F0018C8AC /* SignIn.swift */,
+				3B046CA52832FDFF0018C8AC /* MyPlacesCell.swift */,
+				3B046CA7283301290018C8AC /* Place.swift */,
+				3B046CA9283301350018C8AC /* Drink.swift */,
+				3BFC17C52824893C00235D59 /* MyDrink.xcdatamodeld */,
+				3B046CB1284436D50018C8AC /* UserDefaults_ext.swift */,
 			);
 			path = MyDrink;
 			sourceTree = "<group>";
@@ -161,11 +179,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3BFC17C12824893C00235D59 /* ViewController.swift in Sources */,
+				3B046CAA283301350018C8AC /* Drink.swift in Sources */,
+				3B046CA22832EC2F0018C8AC /* SignIn.swift in Sources */,
+				3B046CB0283EF94D0018C8AC /* AddPlace_VC.swift in Sources */,
 				3BFC17BD2824893C00235D59 /* AppDelegate.swift in Sources */,
+				3B046CA8283301290018C8AC /* Place.swift in Sources */,
+				3B046CA62832FDFF0018C8AC /* MyPlacesCell.swift in Sources */,
 				3BFC17C72824893C00235D59 /* MyDrink.xcdatamodeld in Sources */,
 				3BFC17DF282DF64D00235D59 /* MyPlacesVC.swift in Sources */,
+				3B046CAC283EEA130018C8AC /* SignInViewController.swift in Sources */,
 				3BFC17BF2824893C00235D59 /* SceneDelegate.swift in Sources */,
+				3B046CB2284436D50018C8AC /* UserDefaults_ext.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
