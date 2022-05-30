@@ -18,8 +18,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         FirebaseApp.configure()
         
-        let navController = UINavigationController(rootViewController: MyPlacesVC())
-        navController.navigationBar.barStyle = .black
+        let _ = UINavigationController(rootViewController: MyPlacesVC())
+        
         return true
     }
 
